@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+ <body bgcolor="beige" text="navy">
+
+        <h1 align="center">CURRICULUM VITAE</h1>
+    <img src="https://www.instagram.com/p/CVWP3cOBzhq/?utm_source=ig_web_copy_link"/>
+        <hr/>
+        <h2>BIODATA</h2>
+        <ol>
+            <li>Nama                    : Alfia Naila Salsabila</li>
+            <li>Tempat, Tanggal Lahir   : Probolinggo, 28 April 2002</li>
+            <li>Tinggi Badan            : 160 cm</li>
+            <li>Berat Badan             : 46 kg</li>
+            <li>Kewarganegaraan         : Indonesia</li>
+            <li>Agama                   : Islam</li>
+            <li>Email                   : alfianaila28@gmail.com</li>
+            <li>Alamat                  : Jl. Sunan Ampel, Kota Probolinggo</li>
+
+        </ol>
+        <h2>PENDIDIKAN</h2>
+        <ol>
+            <li>SD  : SDN Jrebeng Lor 2</li>
+            <li>SMP : SMPN 5 Probolinggo</li>
+            <li>SMA : SMAN 4 Probolinggo</li>
+        </ol>
+        <h2>PENGALAMAN KERJA</h2>
+        <table border="1" width="100%">
+            <thead>
+                <tr>
+                    <th>Jenis Pekerjaan</th><th>Bidang</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Freelance</td><td>Data Entry</td>
+                </tr>
+                <tr>
+                    <td>Guru Les SMP</td><td>Matematika, IPA</td>
+                </tr>
+            </tbody>
+        </table>
+</body>
+</html>
