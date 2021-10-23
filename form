@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+  <h1>Black Goose Bistro | Pizza-on-Demand</h1>
+ Our 12th wood-fired pizzas are available for delivery. Bulid your custom pizza and we'll deliver it within an hour.
+ <br/>                                                          
+<fieldset>
+    <legend>Your Information</legend>
+    <label for="name">Name:</label>
+    <input type="text" name="customer-name"/>
+    <br/> 
+    <label for="address">Address:</label>
+    <input type="text" name="address"/>
+    <br/>                                 
+    <label for="telephone-number">Telephone Number:</label>
+    <input type="text" name="telephone"/>
+    <br/>                                           
+    <label for="email">Email:</label>                                          
+    <input type="text" name="email"/>
+    <br/>
+    Delivery instruction:  
+    <br/>
+    <textarea name="instruction" cols="40" rows="3" maxcharacters="400"></textarea>
+</fieldset>      
+<br/>
+<h2>Design Your Dream Pizza:</h2><br/>
+Pizza specs<br/>                                                                       
+Crust (Choose one):<br/>
+<form action="/action_page.php">
+<input type="radio" id="crust1" name="crust1" value="Classic">
+<label for="crust1">Classic white</label><br/>
+<input type="radio" id="crust2" name="crust2" value="Multigrain">
+<label for="crust2">Multigrain</label><br/>  
+<input type="radio" id="crust3" name="crust3" value="Cheese">
+<label for="crust3">Cheese-stuffed crust</label><br/> 
+<input type="radio" id="crust4" name="crust4" value="Gluten">
+<label for="crust4">Gluten-free</label><br/>          
+Toppings (Choose as many as you want):<br/>
+<input type="checkbox" id="topping1" name="topping1" value="Red" checked>
+<label for="topping1">Red sauce</label><br/>
+<input type="checkbox" id="topping2" name="topping2" value="White">
+<label for="topping2">White sauce</label><br/>                         
+<input type="checkbox" id="topping3" name="topping3" value="Mozzarella">
+<label for="topping3">Mozzarella Cheese</label><br/>                                                                                  
+<input type="checkbox" id="topping4" name="topping4" value="Pepperoni">
+<label for="topping4">Pepperoni</label><br/>                                                                                  
+<input type="checkbox" id="topping5" name="topping5" value="Mushrooms">
+<label for="topping5">Mushrooms</label><br/>                                               
+<input type="checkbox" id="topping6" name="topping6" value="Peppers">
+<label for="topping6">Peppers</label><br/>                                                                                  
+<input type="checkbox" id="topping7" name="topping7" value="Anchovies">
+<label for="topping7">Anchovies</label><br/>  
+<br/>
+Number <br/>
+How many pizzas:
+  <select>
+         <option>1</option>                     
+         <option>2</option>                   
+         <option>3</option>                
+         <option>4</option>               
+         <option>5</option>               
+         <option>6</option>
+   </select> 
+                     <p><input type="submit" value="Bring me a pizza!"> <input type="reset" value="Reset"></p>                
+</form>
+</body>
+</html>
